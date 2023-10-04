@@ -111,7 +111,6 @@ p .pipeline {
   height: 50px;
   color: #fff;
   border: none;
-  margin-left: 36px;
   border-radius: 5px;
   font-size: medium;
 }
@@ -352,3 +351,375 @@ h2 {
   font-weight: 500;
   margin-top: 5px;
 }
+
+/* responsive */
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+  /* Adjust header styles */
+  .header {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #signup-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+  /* Adjust hero section styles */
+  .hero-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    border-radius: 0;
+
+  }
+
+  .hero-para {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .neasted-para {
+    font-size: 14px;
+  }
+
+  .hero-search {
+    width: 100%;
+  }
+
+  .btn {
+    width: 20%;
+    height: 40%;
+    font-size: smaller;
+  }
+  .hero-search {
+    font-size: 10px;
+    font-weight: lighter;
+    height: 60px;
+    margin-bottom: 20px;
+  
+}
+p .pipeline{
+  right: -20px;
+}
+#arrow{
+  gap:5px;
+}
+
+  /* Adjust about section styles */
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  #about-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .btn2{
+    width: 100%;
+    height: 40px;
+    font-size: medium;
+    margin-bottom: 20px;
+
+  }
+  .cards-container {
+    height: 1650px;
+  }
+
+  h2{
+    margin-left: 13px;
+  }
+  .card-para{
+    margin-left: 13px;
+  }
+.top-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.bottom-card {
+  display: none;
+}
+.card-in {
+  margin-left: 13px;
+  width: 325px;
+}
+.card-in1{
+  margin-left: 13px;
+  width: 325px;
+}
+.card-in2{
+  margin-left: 13px;
+  width: 325px;
+}
+.btn1{
+  margin-left: 0px;
+  margin-top: 15px;
+
+}
+.testemonial {
+  height: 1080px;
+}
+#mainTitle{
+  margin-left: 13px;
+  margin-bottom: -30px;
+}
+#subTitle {
+  margin-left: 13px;
+}
+.arrow-cont {
+  justify-content: start;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+
+.both-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: -15px;
+}
+.user-card {
+  margin-left: 13px;
+  width: 350px;
+  height: 375px;
+}
+.star-logo {
+  gap: 93px;
+}
+.user-card1 {
+  margin-left: 13px;
+  width: 350px;
+  height: 375px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Navbar styles for tablets */
+  .nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  ul li {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  #signup-btn {
+    margin-top: 10px;
+  }
+
+  /* Hero section styles for tablets */
+  .hero-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-para {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 45px;
+  }
+
+  .neasted-para {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero-search {
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  #Search,
+  #arrow {
+    margin: 10px 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* About section styles for tablets */
+  .about-container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #about-img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  /* Category section styles for tablets */
+  .cards-container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .card-para {
+    font-size: 16px;
+  }
+
+  .top-card,
+  .bottom-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-in,
+  .card-in1,
+  .card-in2 {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+  }
+
+  /* User say section styles for tablets */
+  .testemonial {
+    padding: 20px;
+  }
+
+  #mainTitle,
+  #subTitle {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .arrow-cont {
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .both-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-card,
+  .user-card1 {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+  }
+
+  .star-logo {
+    gap: 10px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .user-para {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .user-info {
+    margin-left: 0;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
